@@ -1,6 +1,9 @@
-counter = 0;
+var counter = 0;
 
 function takeANumber(line) {
+  if (counter === 50) {
+    counter = 0;
+  }
   counter += 1;
   line.push(counter);
   return `Welcome, your number is ${counter}. You are number ${line.length} in line.`;
