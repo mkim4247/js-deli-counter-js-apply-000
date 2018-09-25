@@ -1,4 +1,5 @@
 function takeANumber(line) {
+  counter = 1
   line.push(name);
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
