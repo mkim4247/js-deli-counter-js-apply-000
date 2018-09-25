@@ -1,7 +1,8 @@
+counter = 0;
+
 function takeANumber(line) {
-  counter = 1;
+  counter += 1;
   line.push(counter);
-  counter++;
   return `Welcome, your number is ${counter}. You are number ${line.length} in line.`;
 }
 
