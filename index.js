@@ -9,8 +9,6 @@ function takeANumber(line) {
   return `Welcome, your number is ${counter}. You are number ${line.length} in line.`;
 }
 
-
-
 function nowServing(line) {
   while (line.length > 0) {
     return `Currently serving ${line.shift()}.`;
