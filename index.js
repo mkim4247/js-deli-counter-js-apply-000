@@ -15,14 +15,14 @@ function nowServing(line) {
   return 'There is nobody waiting to be served!';
 }
 
-//function nowServing(line) {
-//	if (line.length > 0) {
-//		return `Currently serving ${line.shift()}.`;
-//	}
-//	if (line.length === 0) {
-//		return "There is nobody waiting to be served!";
-//	}
-//}
+function nowServing(line) {
+	if (line.length > 0) {
+		return `Currently serving ${line.shift()}.`;
+	}
+	if (line.length === 0) {
+		return "There is nobody waiting to be served!";
+	}
+}
 
 function currentLine(line) {
   var arr = [];
