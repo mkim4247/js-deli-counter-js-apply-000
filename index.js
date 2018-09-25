@@ -1,4 +1,4 @@
-var counter = 0;
+var counter = 49;
 
 function takeANumber(line) {
   if (counter === 50) {
