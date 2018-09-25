@@ -10,13 +10,6 @@ function takeANumber(line) {
 }
 
 function nowServing(line) {
-  while (line.length > 0) {
-    return `Currently serving ${line.shift()}.`;
-  }
-  return 'There is nobody waiting to be served!';
-}
-
-function nowServing(line) {
 	if (line.length > 0) {
 		return `Currently serving ${line.shift()}.`;
 	}
